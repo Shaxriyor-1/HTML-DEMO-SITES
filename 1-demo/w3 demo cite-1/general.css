@@ -1,0 +1,287 @@
+body  {
+    font-family: Arial;
+    height: 3500px;
+    padding: 0;
+    margin: 0;
+}
+
+.page  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+
+.main-photo-container  {
+    position: relative;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+button:hover  {
+    color: black;
+    background-color: rgb(211, 211, 211);
+    border: none;
+    padding: 10px;
+}
+
+.main-photo  {
+    width: 1500px;
+}
+
+.country  {
+    color: white;
+    background-color: black;
+    position: absolute;
+    bottom: 80px;
+    font-size: 20px; 
+}
+
+.feelings   {
+    font-weight: bold;
+    font-size: 12px;
+    color: white;
+    background-color: black;
+    position: absolute;
+    bottom: 40px;
+
+}
+
+.text-container  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.text-paragraph  {
+    font-size: 13.8px;
+    width: 100%;
+    text-align:justify;
+    max-width: 720px;
+    line-height: 25px;
+
+}
+
+.the-band  {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.band  {
+    margin-left: 10px;
+}
+
+.music-opinion  {
+    color: rgb(169, 169, 169);
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.name-photo-container  {
+    margin-top: 80px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.name-center  {
+    display: flex;
+    justify-content: space-between;
+    width: 720px;
+}
+
+.name-photo   {
+    width: 130px;
+    flex: 1;
+    justify-content: center;
+}
+
+.relative-name-photo-container {
+    display: flex;
+    justify-content: center;
+}
+
+.absolute-name  {
+    position: absolute;
+    top: -35px;
+}
+
+.black-outlay   {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    background-color: black;
+    width: 1500px;
+    height: 800px;
+    position: relative;
+}
+
+.tour   {
+    color: white;
+    margin-top: 60px;
+    font-size: 25px;
+    position: absolute;;
+}
+
+.tickets   {
+    color: gray;
+    margin-top: 100px;
+    font-weight: bold;
+    font-size: 14px;
+    font-style: italic;
+}
+
+.column-flex  {
+    position: absolute;
+    top: 150px;
+    width: 700px;
+    background-color: white;
+}
+
+.month   {
+    height: 35px;
+    color: rgb(86, 81, 81);
+    border-bottom: 1px solid rgba(196, 188, 188, 0.826);
+    padding-top: 10px;
+    padding-left: 15px;
+}
+
+.november-flex  {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.sold  {
+    background-color: rgb(230, 43, 43);
+    color: white;
+    padding: 5px;
+    margin-left: 15px;
+}
+
+.number-3  {
+    margin-right: 30px;
+    background-color: black;
+    color: white;
+    padding: 4px 10px;
+    border-radius: 20px;
+}
+
+.row-grid  {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 350px;
+    width: 700px;
+    height: 355px;
+}
+
+.country-picture  {
+    width: 224px;
+}
+
+.country-picture:hover  {
+    opacity: 0.7;
+}
+
+.buy-tickets-column  {
+    width: 32%;
+    background-color: white;
+
+}
+
+.ticket-country  {
+    font-weight: bold;
+    margin: 13px 12px;
+}
+
+
+.ticket-gray  {
+    color: gray;
+    margin: 13px 12px;    
+}
+
+.ticket-text  {
+    margin-left: 12px;
+    font-size: 14px;
+    line-height: 22px;
+    width: 224px;
+}
+
+.ticket-button  {
+    margin: 13px 12px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+}
+
+.contact-flex  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-text  {
+    font-size: 35px;
+    margin-top: 100px;
+    margin-bottom: 25px;
+}
+
+.gray-text  {
+    color: gray;
+    margin-bottom: 60px;
+    font-style: italic;
+}
+
+.address-row  {
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+    width: 720px;
+}
+
+.first-column  {
+    font-size: 22px;
+    line-height: 30px;
+    vertical-align: middle;
+}
+
+.all-input  {
+    width: 400px;
+}
+
+.data-input  {
+    padding: 12px;
+    margin-bottom: 8px;
+}
+
+.message  {
+    width: 370px;
+}
+
+.data-input::placeholder  {
+    font-size: 15px;
+}
+
+.send-button  {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    margin-left: 318px;
+}
+
+.map  {
+    width: 100%;
+    margin-top: 120px;
+    height: 100%;
+}

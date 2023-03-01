@@ -1,0 +1,397 @@
+html  {
+}
+
+body {
+    background-color: rgb(241, 241, 241);
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', Arial;
+    height: 4100px;
+    display: grid;
+    place-items: center;
+}
+
+.page  {
+    width: 100%;
+}
+
+.main-hotel-relative  {
+    position: relative;
+}
+
+.column-bron  {
+    background-color: white;
+    position: absolute;
+    left: 20px;
+    bottom: 300px;
+    width: 500px;
+}
+
+.column-bron input  {
+    width: 200px;
+    padding: 14px;
+}
+
+.column-bron input::placeholder  {
+    font-size: 18px;
+}
+.column-bron button {
+    padding: 15px;
+    margin: 10px;
+    color: white;
+    background-color: rgb(98, 96, 96);
+    border: none;
+    font-size: 18px;
+}
+
+.fa  {
+    margin-right: 10px;
+}
+
+.column-bron button:hover,
+.room-features button:hover,
+.assign-search:hover,
+.black-outlay button:hover,
+.send-button:hover   {
+  background-color: lightgray;
+  color: black;
+  cursor: pointer;
+  border: none;
+}
+
+.hotel-name {
+    display: flex;
+    font-size: 30px;
+    white-space: nowrap;
+    background-color: rgb(244, 67, 54);
+    color: white;
+    padding: 20px;
+}
+
+.hotel-name img  {
+    margin-right: 10px;
+}
+
+.first-row-bron  {
+    display: flex;
+    justify-content: space-between;
+}
+
+.column-check  {
+    margin: 10px;
+}
+
+.rooms  {
+    font-size: 28px;
+    margin: 20px;
+    font-weight: 300;
+    margin-top: 30px;
+}
+
+.slogan {
+    margin-left: 20px;
+}
+
+.flex-row  {
+    display: flex;
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 100%;
+}
+
+.assign-date  {
+    width: 235px;
+    padding: 12px;
+    
+}
+
+.assign-people, .assign-search  {
+    width: 210px;
+    padding: 12px;
+}
+
+.assign-search  {
+    color: white;
+    background-color: black;
+}
+
+.room-option  {
+    display: flex;
+    margin-left: 20px;
+    margin-bottom: 30px;
+    background-color: white;
+    padding-bottom: 20px;
+}
+
+
+.room-photo  {
+    width: 91.5%;
+}
+
+.room-features  {
+    margin-left: 4%;
+    margin-right: 4%;
+    width: 92%;
+    line-height: 40px;
+    font-weight: 300;
+}
+
+.room-type  {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.room-price  {
+    color: gray;
+}
+
+.room-features button  {
+    font-size: 16px;
+    font-weight: 200;
+    width: 92%;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.expression-contact-map  {
+    display: flex;
+}
+
+.expression-contact  {
+    display: flex;
+    flex-direction: column;
+    width: 430px;
+    line-height: 30px;
+    margin-left: 20px;
+}
+
+.map   {
+    width: 100%;
+    height: 500px;
+    position: relative;
+}
+
+.about  {
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+.expression  {
+    line-height: 25px;
+    font-weight: 300;
+    margin-right: 10px;
+}
+
+.card  {
+    margin-top: 10px;
+    font-weight: 300;
+}
+
+.address-phone  {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 18px;
+}
+
+.red-icon  {
+    color: red;
+}
+
+.offer  {
+    display: flex;
+    align-items: center;
+    color: white;
+    background-color: rgb(244, 67, 54);
+    height: 50px;
+    padding: 24px;
+    margin-left: 20px;
+}
+
+.fa-info  {
+    padding: 7px 15px;
+    background-color: rgb(255, 87, 34);
+}
+
+.flex-row-country  {
+    display: flex;
+    margin-top: 25px;
+    margin-left: 20px;
+    align-items: center;
+    width: 100%;
+}
+
+.country-name-relative  {
+    position: relative;
+}
+
+.cinque-photo  {
+    width: 650px;
+    margin-top: 25px;
+    height: 510px;
+}
+
+
+.city-photo   {
+    width: 320px;
+    margin-right: 10px;
+    position: relative;
+}
+
+.cinque-absolute  {
+    position: absolute;
+    left: 20px;
+    bottom: 30px;
+    color: white;
+}
+
+.newyork-absolute  {
+    position: absolute;
+    bottom: 280px;
+    left: 40px;
+    color: white;
+}
+
+.pisa-absolute  {
+    position: absolute;
+    bottom: 15px;
+    left: 40px;
+    color: white;
+}
+
+.paris-absolute  {
+    position: absolute;
+    bottom: 15px;
+    left: 360px;
+    color: white;
+}
+
+.san-absolute  {
+    position: absolute;
+    color: white;
+    bottom: 280px;
+    left: 360px;
+}
+
+.black-outlay  {
+    height: 270px;
+    background-color: rgb(127, 127, 127);
+    width: 100%;
+    margin-top: 50px;
+    color: white;
+    padding-left: 20px;
+    padding-top: 50px;
+}
+
+.black-outlay:hover  {
+    background-color: black;
+}
+
+.best-offer  {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.newsletter  {
+    margin-bottom: 20px;
+}
+
+.black-outlay input  {
+    width: 96%;
+    padding-left: 10px;
+    height: 40px;
+    margin-top: 5px;
+    margin-bottom: 18px;
+}
+
+.black-outlay button  {
+    background-color: rgb(244, 67, 54);
+    color: white;
+    padding: 10px 15px;
+    width: 8%;
+    font-size: 16px;
+    border: none;
+}
+
+
+
+.contact  {
+    margin-top: 60px;
+    margin-left: 20px;
+    font-size: 30px;
+    margin-bottom: 30px;
+
+}
+
+.questions  {
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.fa-map-marker,
+.red-phone-icon .fa-phone,
+.fa-envelope  {
+    margin-left: 20px;
+    margin-bottom: 10px;
+    color: rgb(244, 67, 54);
+}
+
+.info  {
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 96%;
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+.info::placeholder  {
+    font-size: 15px;
+    color: rgb(156, 152, 152);
+}
+
+.send-button  {
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding: 15px 20px;
+    border: none;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+
+}
+
+.black-end  {
+    height: 250px;
+    line-height: 60px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    position: relative;
+}
+
+.find  {
+    font-size: 18px;
+    padding-top: 30px;
+    vertical-align: middle;
+}
+
+.social-media-icon  {
+    font-size: 25px;
+}
+
+.social-media-icon:hover  {
+    color: rgba(230, 225, 235, 0.656);
+}
+
+.w3:hover  {
+    cursor: pointer;
+    color: rgb(20, 218, 27);
+}
+

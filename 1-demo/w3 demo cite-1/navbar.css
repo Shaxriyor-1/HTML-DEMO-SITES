@@ -1,0 +1,66 @@
+.navbar  {
+    position: fixed;
+    right: 0;
+    left: 0;
+    height: 50px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    color: white;
+    background-color: black;
+    z-index: 100;
+}
+
+.navbar .navbar-link {
+    padding: 20px;
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+.navbar .navbar-link:hover  {
+    background-color: rgb(211, 211, 211);
+    color: black;
+}
+
+.navbar-relative  {
+    padding: 20px;
+    font-size: 15px;
+    margin-left: 10px;
+    color: white;
+    position: relative;
+}
+
+.navbar-relative:hover  {
+    background-color: rgb(211, 211, 211);
+    color: black;
+}
+
+.navbar-relative:hover .hover-column  {
+    opacity: 1;
+}
+
+.hover-column  {
+    position: absolute;
+    top: 53px;
+    left: 0;
+    background-color: white;
+    color: black;
+    line-height: 35px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 50px;
+    width: 120px;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.icon  {
+    position: absolute;
+    right: 0;
+    padding: 20px;
+}
+
+.icon:hover  {
+    background-color: red;
+}
